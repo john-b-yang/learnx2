@@ -1,3 +1,6 @@
+# Folders
 *__pycache__
 *.ipynb_checkpoints/
 *wandb
+
+cos324/data/
