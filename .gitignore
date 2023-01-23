@@ -4,3 +4,6 @@
 *wandb
 
 cos324/data/
+hf/runs/*.out
+hf/runs/logs
+hf/runs/test-trainer
