@@ -1,7 +1,7 @@
 #!/bin/bash -l
 
 # Set Job Name
-#SBATCH --job-name=hf_32
+#SBATCH --job-name=hf_33
 #SBATCH -N 1 #nodes
 #SBATCH -n 1 #tasks
 #SBATCH --cpus-per-task=4
@@ -17,5 +17,5 @@ set --
 source /n/fs/nlp-jy1682/miniconda3/bin/activate;
 conda activate learn;
 
-srun python $BASE_DIR/run_32.py \
+srun python $BASE_DIR/run_33.py \
     > $BASE_DIR/logs/log.txt
